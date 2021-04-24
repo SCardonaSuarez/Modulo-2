@@ -27,4 +27,35 @@ const myPromise = new Promise((resolve) => {
 
   //Ejercicio 2
 
+  const myPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (Math.random() >= 0.5) {
+        resolve(1)
+      } else {
+        reject('An error has occurred')
+      }
+    }, 500)
+  })
   
+  myPromise
+    .then((result:number) => {
+      return result + 1
+    })
+    .then((result) => {
+     console.log(result)
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+  
+  async function thePromise (){
+  
+    try{
+      const  result = await myPromise 
+    }catch(err){
+      console.log(err.message)
+    }
+  }
+
+
+
