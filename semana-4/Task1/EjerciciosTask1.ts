@@ -11,7 +11,7 @@ class Alumno {
       this.correo = correo;
       this.promedio = promedio;
     }
-  }
+}
 
 
 const alumnos: Array<Alumno> = [
@@ -55,7 +55,7 @@ console.log(alumDatos(alumnos))
 
 const studentAgePro = ((student: Alumno[]) => {
 
-    let ageProm = student.filter(proAge=> proAge.edad > 19 && proAge.promedio < 6 )
+    let ageProm = student.filter(proAge=>  proAge.edad > 19 && proAge.promedio < 6 )
     return ageProm
 })
 
