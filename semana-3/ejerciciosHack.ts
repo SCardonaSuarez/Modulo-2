@@ -59,3 +59,22 @@ runningPace(2.51, "10:43");
 runningPace(4.99, "22:32");
 runningPace(0.2, "0:38");
 runningPace(42.195, "122:57");
+
+
+
+/* function runningPace(distance, time) {
+
+  if (!time) {
+    return El tiempo es un formato invaldo
+  }
+  const [minutes, seconds] = time.split(':')
+  let text = it took ${minutes} minute${parseInt(minutes, 10) > 1 ? 's' : ''}
+
+  const secondsParsed = parseInt(seconds, 10)
+
+  if (secondsParsed > 0) {
+    text = ${text} and ${parseInt(seconds, 10)} second${parseInt(seconds, 10) > 1 ? 's' : ''}
+  }
+
+  return ${text} to travel ${distance} kilometre${distance > 1 ? 's' : ''}
+} */
