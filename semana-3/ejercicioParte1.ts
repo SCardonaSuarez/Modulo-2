@@ -61,7 +61,7 @@ const myPromise =  new Promise((success, reject) => {
   })
   
   async function getResult() {
-    success {
+    try {
       const result = await myPromise 
       console.log(result)
     } catch(err) {

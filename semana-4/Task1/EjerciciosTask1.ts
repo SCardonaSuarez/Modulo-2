@@ -70,7 +70,7 @@ console.log(studentAgePro(alumnos))
 
 // Devuelva un arreglo ordenado segun el promedio de forma ascendente
 
-const proAscendente = ((student: Alumno[])=>{
+const proAscendente = (student: Alumno[])=>{
 
     let listaAlum = [...student];
     // let listaAlum = Array.from(student);
@@ -80,7 +80,7 @@ const proAscendente = ((student: Alumno[])=>{
         return a.promedio - b.promedio
     })
     return stuAscend
-})
+}
 
 console.log(proAscendente(alumnos))
 

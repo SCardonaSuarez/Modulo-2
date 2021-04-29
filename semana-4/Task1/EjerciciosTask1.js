@@ -44,14 +44,14 @@ var studentAgePro = (function (student) {
 console.log(studentAgePro(alumnos));
 /* *********Ejercicio3*********** */
 // Devuelva un arreglo ordenado segun el promedio de forma ascendente
-var proAscendente = (function (student) {
+var proAscendente = function (student) {
     var listaAlum = __spreadArrays(student);
     // let listaAlum = Array.from(student);
     var stuAscend = listaAlum.sort(function (a, b) {
         return a.promedio - b.promedio;
     });
     return stuAscend;
-});
+};
 console.log(proAscendente(alumnos));
 /* *********Ejercicio4*********** */
 // El profesor decidio otorgar 2 puntos a todos los estudiantes cuya nota es menor o igual a 4, devuelva un arreglo que cumpla con esta condición
