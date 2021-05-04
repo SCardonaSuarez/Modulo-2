@@ -14,5 +14,5 @@ Es una caja donde guardamos dos cosas, la primera es el dato que queremos tener 
 
 Describa como se agrega un elemento al final de una lista
 
-
+Llega un dato como parametro y entra por medio de un metodo que verifica si esta vacio o no, este entra a la condicion ya que recibe un parametro y luego vuelve a preguntar si esta vacio, en este caso no entra y pregunta de nuevo si habia un nuevo nodo y como es el primero que crea el primero y unico nodo con el dato nuevo cuando se cumpla la condicion que lista esta vacia. Cuando entra otro dato hace la misma condicion pasada y entra al while y se crea una variable auxiliar que este indica que si la liga del nodo es null osea esta en la ultima posicion, se crea un nuevo nodo con un nuevo dato que esta pasa a ser el ultimo, y si llega a entro dato nuevo, pasa por todoas estas condincienes y se repite.
 */

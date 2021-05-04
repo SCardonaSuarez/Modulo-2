@@ -66,3 +66,6 @@ while(flag){
 }
 
 
+estudiantes.forEach((valor, inice)=>{
+    
+})
