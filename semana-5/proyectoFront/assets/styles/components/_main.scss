@@ -1,0 +1,71 @@
+section{
+
+  img{
+    max-width: 100%;
+  }
+
+  article{
+    text-align: center;
+    margin-top: 3rem;
+    h2{
+      &:nth-child(1){
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        font-weight: 300;
+        color: $Desaturated;
+      }
+      &:nth-child(2){
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+      }
+      &:nth-child(3){
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+      }
+    }
+
+    p{
+      margin: 1rem 0 0 0;
+      padding: 0 2rem;
+      font-size: 1.1rem;
+      color: $Desaturated;
+      text-align: center;
+      line-height: 1.5rem;
+
+    }
+  }
+
+  .label{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+
+    input{
+      width: 80%;
+      border: 2px solid $Desaturated;
+      border-radius: 1.5rem;
+      padding: 1rem;
+
+    }
+
+    button{
+      background-color: $Desaturated;
+      border: 2px solid $Desaturated;
+      border-radius: 3rem;
+      margin-left: -2.5rem;
+      width: 20%;
+
+    }
+
+    ::placeholder{
+      color: $Desaturated;
+      font-size: 0.8rem;
+      padding-left: 10px;
+
+    }
+
+  }
+
+}
