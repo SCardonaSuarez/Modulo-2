@@ -5,23 +5,23 @@ D2 requiere un registro de inventario básico, para ello necesita saber la lista
 
 class producto {
 
-    public nombre : string;
-    public fechaVencimiento : string;
-    public precio : number;
-    public peso : number;
-    public uuid : string;
-    public distribuidor : Distribuidor;
-    public cantidad : number;   
+    public nombre : string
+    public fechaVencimiento : string
+    public precio : number
+    public peso : number
+    public uuid : string
+    public distribuidor : Distribuidor
+    public cantidad : number
 }
 
 class Distribuidor {
 
-    public nombre : string;
-    public telefono : number;
-    public productos : producto[];
+    public nombre : string
+    public telefono : number
+    public productos : producto[]
 }
 
-let productosAlmacenprincipal: producto[];
-let productosSolicitar: producto[];
-let productoAlmacen: producto[];
-let distribuidores: Distribuidor[];
+let productosAlmacenprincipal: producto[]
+let productosSolicitar: producto[]
+let productoAlmacen: producto[]
+let distribuidores: Distribuidor[]
