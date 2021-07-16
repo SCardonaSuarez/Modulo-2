@@ -7,7 +7,6 @@ class Tarea {
     public nombre: string
     public fechaDeInicio: string
     public fechaCulminacion: string
-    public status:string
 
 }
 
@@ -21,7 +20,5 @@ enum estatus {
 }
 
 let TareasPendientes: Tarea[]
-
 let TareasTerminadas: Tarea[]
-
 let TareasCanceladas: Tarea[]
